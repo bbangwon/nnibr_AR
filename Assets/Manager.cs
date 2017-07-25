@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Manager : MonoBehaviour, ITrackableEventHandler {
 
@@ -19,6 +20,8 @@ public class Manager : MonoBehaviour, ITrackableEventHandler {
 
     bool start = false;
 
+    public GameObject ImageUI;
+
     
 
     private void Start()
@@ -27,7 +30,7 @@ public class Manager : MonoBehaviour, ITrackableEventHandler {
         if (mTrackableBehaviour)
         {
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
-        }        
+        }
     }
 
     public void OnTrackableStateChanged(
@@ -37,9 +40,15 @@ public class Manager : MonoBehaviour, ITrackableEventHandler {
         if ((newStatus == TrackableBehaviour.Status.DETECTED ||
             newStatus == TrackableBehaviour.Status.TRACKED) && !start)
         {
+            ImageUI.SetActive(false);
             StartCoroutine(CreateAnimal());
             start = true;
         }
+    }
+
+    public void UIOnClick()
+    {
+        ImageUI.SetActive(false);
     }
 
     IEnumerator CreateAnimal()
@@ -48,17 +57,23 @@ public class Manager : MonoBehaviour, ITrackableEventHandler {
         yield return new WaitForSeconds(1f);
         particle.transform.position = pig.transform.position;
         particle.SetActive(true);
+        GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(2f);
         pig.SetActive(true);
+        
         LeanTween.moveY(particle, 20f, 2f).setOnComplete(() => {
             particle.SetActive(false);
         });
 
         yield return new WaitForSeconds(3f);
-        particle.transform.position = hama.transform.position;
+        Vector3 pos = hama.transform.position;
+        pos.x -= 0.8f;
+        particle.transform.position = pos;
         particle.SetActive(true);
+        GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(2f);
         hama.SetActive(true);
+        
         LeanTween.moveY(particle, 20f, 3f).setOnComplete(() => {
             particle.SetActive(false);
         });
@@ -66,8 +81,10 @@ public class Manager : MonoBehaviour, ITrackableEventHandler {
         yield return new WaitForSeconds(3f);
         particle.transform.position = snake.transform.position;
         particle.SetActive(true);
+        GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(2f);
         snake.SetActive(true);
+        
         LeanTween.moveY(particle, 20f, 3f).setOnComplete(() => {
             particle.SetActive(false);
         });
@@ -75,8 +92,10 @@ public class Manager : MonoBehaviour, ITrackableEventHandler {
         yield return new WaitForSeconds(3f);
         particle.transform.position = bat.transform.position;
         particle.SetActive(true);
+        GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(2f);
         bat.SetActive(true);
+        
         LeanTween.moveY(particle, 20f, 3f).setOnComplete(() => {
             particle.SetActive(false);
         });
@@ -84,8 +103,10 @@ public class Manager : MonoBehaviour, ITrackableEventHandler {
         yield return new WaitForSeconds(3f);
         particle.transform.position = gaori.transform.position;
         particle.SetActive(true);
+        GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(2f);
         gaori.SetActive(true);
+        
         LeanTween.moveY(particle, 20f, 3f).setOnComplete(() => {
             particle.SetActive(false);
         });
@@ -93,8 +114,10 @@ public class Manager : MonoBehaviour, ITrackableEventHandler {
         yield return new WaitForSeconds(3f);
         particle.transform.position = gunbird.transform.position;
         particle.SetActive(true);
+        GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(2f);
         gunbird.SetActive(true);
+        
         LeanTween.moveY(particle, 20f, 3f).setOnComplete(() => {
             particle.SetActive(false);
         });

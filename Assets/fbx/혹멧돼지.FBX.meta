@@ -1,114 +1,110 @@
 fileFormatVersion: 2
-guid: 23bf356fc14e2384791d004d019a6463
-timeCreated: 1500887810
+guid: 22261b22129a81f4092167d57e828284
+timeCreated: 1500948957
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
     100000: Box001
-    100002: Camera001
-    100004: Camera001.Target
-    100006: CATRigHub001
-    100008: CATRigHub002
-    100010: CATRigHub003
-    100012: CATRigHub003Bone001
-    100014: CATRigHub003Bone002
-    100016: CATRigLLeg1
-    100018: CATRigLLeg1 1
-    100020: CATRigLLeg2
-    100022: CATRigLLeg2 1
-    100024: CATRigLLeg3
-    100026: CATRigLLeg3 1
-    100028: CATRigLLegAnkle
-    100030: CATRigLLegAnkle 1
-    100032: CATRigLLegDigit11
-    100034: CATRigLLegDigit11 1
-    100036: CATRigLLegDigit12
-    100038: CATRigLLegDigit12 1
-    100040: CATRigLLegPlatform
-    100042: CATRigLLegPlatform 1
-    100044: CATRigRLeg1
-    100046: CATRigRLeg1 1
-    100048: CATRigRLeg2
-    100050: CATRigRLeg2 1
-    100052: CATRigRLeg3
-    100054: CATRigRLeg3 1
-    100056: CATRigRLegAnkle
-    100058: CATRigRLegAnkle 1
-    100060: CATRigRLegDigit11
-    100062: CATRigRLegDigit11 1
-    100064: CATRigRLegDigit12
-    100066: CATRigRLegDigit12 1
-    100068: CATRigRLegPlatform
-    100070: CATRigRLegPlatform 1
-    100072: CATRigSpine1
-    100074: CATRigSpine1 1
-    100076: CATRigSpine2
-    100078: CATRigSpine2 1
-    100080: CATRigSpine3
-    100082: CATRigSpine3 1
-    100084: CATRigSpine4
-    100086: CATRigSpine5
-    100088: CATRigTail1
-    100090: CATRigTail2
-    100092: CATRigTail3
-    100094: CATRigTail4
-    100096: CATRigTail5
-    100098: Character001
-    100100: Sky001
-    100102: //RootNode
+    100002: CATRigHub001
+    100004: CATRigHub002
+    100006: CATRigHub003
+    100008: CATRigHub003Bone001
+    100010: CATRigHub003Bone002
+    100012: CATRigLLeg1
+    100014: CATRigLLeg1 1
+    100016: CATRigLLeg2
+    100018: CATRigLLeg2 1
+    100020: CATRigLLeg3
+    100022: CATRigLLeg3 1
+    100024: CATRigLLegAnkle
+    100026: CATRigLLegAnkle 1
+    100028: CATRigLLegDigit11
+    100030: CATRigLLegDigit11 1
+    100032: CATRigLLegDigit12
+    100034: CATRigLLegDigit12 1
+    100036: CATRigLLegPlatform
+    100038: CATRigLLegPlatform 1
+    100040: CATRigRLeg1
+    100042: CATRigRLeg1 1
+    100044: CATRigRLeg2
+    100046: CATRigRLeg2 1
+    100048: CATRigRLeg3
+    100050: CATRigRLeg3 1
+    100052: CATRigRLegAnkle
+    100054: CATRigRLegAnkle 1
+    100056: CATRigRLegDigit11
+    100058: CATRigRLegDigit11 1
+    100060: CATRigRLegDigit12
+    100062: CATRigRLegDigit12 1
+    100064: CATRigRLegPlatform
+    100066: CATRigRLegPlatform 1
+    100068: CATRigSpine1
+    100070: CATRigSpine1 1
+    100072: CATRigSpine2
+    100074: CATRigSpine2 1
+    100076: CATRigSpine3
+    100078: CATRigSpine3 1
+    100080: CATRigSpine4
+    100082: CATRigSpine5
+    100084: CATRigTail1
+    100086: CATRigTail2
+    100088: CATRigTail3
+    100090: CATRigTail4
+    100092: CATRigTail5
+    100094: Character001
+    100096: Sky001
+    100098: //RootNode
     400000: Box001
-    400002: Camera001
-    400004: Camera001.Target
-    400006: CATRigHub001
-    400008: CATRigHub002
-    400010: CATRigHub003
-    400012: CATRigHub003Bone001
-    400014: CATRigHub003Bone002
-    400016: CATRigLLeg1
-    400018: CATRigLLeg1 1
-    400020: CATRigLLeg2
-    400022: CATRigLLeg2 1
-    400024: CATRigLLeg3
-    400026: CATRigLLeg3 1
-    400028: CATRigLLegAnkle
-    400030: CATRigLLegAnkle 1
-    400032: CATRigLLegDigit11
-    400034: CATRigLLegDigit11 1
-    400036: CATRigLLegDigit12
-    400038: CATRigLLegDigit12 1
-    400040: CATRigLLegPlatform
-    400042: CATRigLLegPlatform 1
-    400044: CATRigRLeg1
-    400046: CATRigRLeg1 1
-    400048: CATRigRLeg2
-    400050: CATRigRLeg2 1
-    400052: CATRigRLeg3
-    400054: CATRigRLeg3 1
-    400056: CATRigRLegAnkle
-    400058: CATRigRLegAnkle 1
-    400060: CATRigRLegDigit11
-    400062: CATRigRLegDigit11 1
-    400064: CATRigRLegDigit12
-    400066: CATRigRLegDigit12 1
-    400068: CATRigRLegPlatform
-    400070: CATRigRLegPlatform 1
-    400072: CATRigSpine1
-    400074: CATRigSpine1 1
-    400076: CATRigSpine2
-    400078: CATRigSpine2 1
-    400080: CATRigSpine3
-    400082: CATRigSpine3 1
-    400084: CATRigSpine4
-    400086: CATRigSpine5
-    400088: CATRigTail1
-    400090: CATRigTail2
-    400092: CATRigTail3
-    400094: CATRigTail4
-    400096: CATRigTail5
-    400098: Character001
-    400100: Sky001
-    400102: //RootNode
+    400002: CATRigHub001
+    400004: CATRigHub002
+    400006: CATRigHub003
+    400008: CATRigHub003Bone001
+    400010: CATRigHub003Bone002
+    400012: CATRigLLeg1
+    400014: CATRigLLeg1 1
+    400016: CATRigLLeg2
+    400018: CATRigLLeg2 1
+    400020: CATRigLLeg3
+    400022: CATRigLLeg3 1
+    400024: CATRigLLegAnkle
+    400026: CATRigLLegAnkle 1
+    400028: CATRigLLegDigit11
+    400030: CATRigLLegDigit11 1
+    400032: CATRigLLegDigit12
+    400034: CATRigLLegDigit12 1
+    400036: CATRigLLegPlatform
+    400038: CATRigLLegPlatform 1
+    400040: CATRigRLeg1
+    400042: CATRigRLeg1 1
+    400044: CATRigRLeg2
+    400046: CATRigRLeg2 1
+    400048: CATRigRLeg3
+    400050: CATRigRLeg3 1
+    400052: CATRigRLegAnkle
+    400054: CATRigRLegAnkle 1
+    400056: CATRigRLegDigit11
+    400058: CATRigRLegDigit11 1
+    400060: CATRigRLegDigit12
+    400062: CATRigRLegDigit12 1
+    400064: CATRigRLegPlatform
+    400066: CATRigRLegPlatform 1
+    400068: CATRigSpine1
+    400070: CATRigSpine1 1
+    400072: CATRigSpine2
+    400074: CATRigSpine2 1
+    400076: CATRigSpine3
+    400078: CATRigSpine3 1
+    400080: CATRigSpine4
+    400082: CATRigSpine5
+    400084: CATRigTail1
+    400086: CATRigTail2
+    400088: CATRigTail3
+    400090: CATRigTail4
+    400092: CATRigTail5
+    400094: Character001
+    400096: Sky001
+    400098: //RootNode
     4300000: Box001
     7400000: Take 001
     9500000: //RootNode
@@ -141,8 +137,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Take 001
       takeName: Take 001
-      firstFrame: 100
-      lastFrame: 118
+      firstFrame: 0
+      lastFrame: 420
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
@@ -169,7 +165,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.13
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
