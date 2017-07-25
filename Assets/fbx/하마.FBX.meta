@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 4b68c38914f0bd148b55616b6c631af0
+timeCreated: 1500885288
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box002
+    100004: Box003
+    100006: Camera001
+    100008: Camera001.Target
+    100010: Camera002
+    100012: Camera002.Target
+    100014: "CATRig2\uACE8\uACA9001"
+    100016: "CATRig2\uACE8\uACA9002"
+    100018: "CATRig3\uACE8\uACA9001"
+    100020: "CATRig3\uACE8\uACA9002"
+    100022: "CATRig4\uACE8\uACA9001"
+    100024: "CATRig4\uACE8\uACA9002"
+    100026: "CATRig5\uACE8\uACA9001"
+    100028: "CATRig5\uACE8\uACA9002"
+    100030: CATRighead
+    100032: "CATRighead\uACE8\uACA9001"
+    100034: CATRigLLeg1
+    100036: CATRigLLeg1 1
+    100038: CATRigLLeg2
+    100040: CATRigLLeg2 1
+    100042: CATRigLLeg3
+    100044: CATRigLLeg3 1
+    100046: "CATRigLLeg\uBC1C\uBAA9"
+    100048: "CATRigLLeg\uBC1C\uBAA9 1"
+    100050: "CATRigLLeg\uD50C\uB7AB\uD3FC"
+    100052: "CATRigLLeg\uD50C\uB7AB\uD3FC 1"
+    100054: CATRigPelvis
+    100056: CATRigRLeg1
+    100058: CATRigRLeg1 1
+    100060: CATRigRLeg2
+    100062: CATRigRLeg2 1
+    100064: CATRigRLeg3
+    100066: CATRigRLeg3 1
+    100068: "CATRigRLeg\uBC1C\uBAA9"
+    100070: "CATRigRLeg\uBC1C\uBAA9 1"
+    100072: "CATRigRLeg\uD50C\uB7AB\uD3FC"
+    100074: "CATRigRLeg\uD50C\uB7AB\uD3FC 1"
+    100076: CATRigSpine1
+    100078: CATRigSpine1 1
+    100080: CATRigSpine2
+    100082: CATRigSpine2 1
+    100084: CATRigSpine3
+    100086: CATRigSpine3 1
+    100088: CATRigSpine4
+    100090: CATRigSpine4 1
+    100092: CATRigSpine5
+    100094: CATRigSpine5 1
+    100096: CATRigTail1
+    100098: CATRigTail2
+    100100: CATRigTail3
+    100102: CATRigTail4
+    100104: CATRigTorso
+    100106: Character001
+    100108: Sky001
+    100110: //RootNode
+    100112: "\uD558\uB9C83dCoat UV"
+    400000: Box001
+    400002: Box002
+    400004: Box003
+    400006: Camera001
+    400008: Camera001.Target
+    400010: Camera002
+    400012: Camera002.Target
+    400014: "CATRig2\uACE8\uACA9001"
+    400016: "CATRig2\uACE8\uACA9002"
+    400018: "CATRig3\uACE8\uACA9001"
+    400020: "CATRig3\uACE8\uACA9002"
+    400022: "CATRig4\uACE8\uACA9001"
+    400024: "CATRig4\uACE8\uACA9002"
+    400026: "CATRig5\uACE8\uACA9001"
+    400028: "CATRig5\uACE8\uACA9002"
+    400030: CATRighead
+    400032: "CATRighead\uACE8\uACA9001"
+    400034: CATRigLLeg1
+    400036: CATRigLLeg1 1
+    400038: CATRigLLeg2
+    400040: CATRigLLeg2 1
+    400042: CATRigLLeg3
+    400044: CATRigLLeg3 1
+    400046: "CATRigLLeg\uBC1C\uBAA9"
+    400048: "CATRigLLeg\uBC1C\uBAA9 1"
+    400050: "CATRigLLeg\uD50C\uB7AB\uD3FC"
+    400052: "CATRigLLeg\uD50C\uB7AB\uD3FC 1"
+    400054: CATRigPelvis
+    400056: CATRigRLeg1
+    400058: CATRigRLeg1 1
+    400060: CATRigRLeg2
+    400062: CATRigRLeg2 1
+    400064: CATRigRLeg3
+    400066: CATRigRLeg3 1
+    400068: "CATRigRLeg\uBC1C\uBAA9"
+    400070: "CATRigRLeg\uBC1C\uBAA9 1"
+    400072: "CATRigRLeg\uD50C\uB7AB\uD3FC"
+    400074: "CATRigRLeg\uD50C\uB7AB\uD3FC 1"
+    400076: CATRigSpine1
+    400078: CATRigSpine1 1
+    400080: CATRigSpine2
+    400082: CATRigSpine2 1
+    400084: CATRigSpine3
+    400086: CATRigSpine3 1
+    400088: CATRigSpine4
+    400090: CATRigSpine4 1
+    400092: CATRigSpine5
+    400094: CATRigSpine5 1
+    400096: CATRigTail1
+    400098: CATRigTail2
+    400100: CATRigTail3
+    400102: CATRigTail4
+    400104: CATRigTorso
+    400106: Character001
+    400108: Sky001
+    400110: //RootNode
+    400112: "\uD558\uB9C83dCoat UV"
+    2300000: Box001
+    2300002: Box002
+    2300004: Box003
+    3300000: Box001
+    3300002: Box002
+    3300004: Box003
+    4300000: "\uD558\uB9C83dCoat UV"
+    4300002: Box001
+    4300004: Box002
+    4300006: Box003
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: "\uD558\uB9C83dCoat UV"
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 500
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
